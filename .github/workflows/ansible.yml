@@ -14,6 +14,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    environment: env2
     runs-on:
       group: org/ansible
       labels: [ ansible, poc ]
